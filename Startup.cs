@@ -94,7 +94,6 @@ namespace Shop
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
             // global cors policy
             app.UseCors(x => x
                 .AllowAnyOrigin()
